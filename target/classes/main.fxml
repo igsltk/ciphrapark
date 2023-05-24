@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.ggpi.ciphrapark.MainFrame">
+   <children>
+      <Button fx:id="main_logout_btn" layoutX="918.0" layoutY="11.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="68.0" style="-fx-background-color: #a35fea;" text="Выход" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="main_park5_btn" layoutX="302.0" layoutY="98.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="268.0" style="-fx-background-color: #fff;" text="Место 5" textFill="#a35fea">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="main_park6_btn" layoutX="302.0" layoutY="211.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="268.0" style="-fx-background-color: #fff;" text="Место 6" textFill="#a35fea">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="main_park7_btn" layoutX="302.0" layoutY="324.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="268.0" style="-fx-background-color: #fff;" text="Место 7" textFill="#a35fea">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="main_park8_btn" layoutX="302.0" layoutY="438.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="268.0" style="-fx-background-color: #fff;" text="Место 8" textFill="#a35fea">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="main_park1_btn" layoutX="20.0" layoutY="98.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="268.0" style="-fx-background-color: #fff;" text="Место 1" textFill="#a35fea">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="main_park2_btn" layoutX="20.0" layoutY="211.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="268.0" style="-fx-background-color: #fff;" text="Место 2" textFill="#a35fea">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="main_park3_btn" layoutX="20.0" layoutY="324.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="268.0" style="-fx-background-color: #fff;" text="Место 3" textFill="#a35fea">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="main_park4_btn" layoutX="20.0" layoutY="438.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="268.0" style="-fx-background-color: #fff;" text="Место 4" textFill="#a35fea">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="main_anchorpane_parkinfo" layoutX="635.0" layoutY="98.0" prefHeight="442.0" prefWidth="351.0">
+         <children>
+            <Label fx:id="main_park_title" layoutX="92.0" layoutY="14.0" text="ПаркМесто 1" textAlignment="RIGHT" textFill="#a35fea">
+               <font>
+                  <Font name="Georgia" size="28.0" />
+               </font>
+            </Label>
+            <Button fx:id="main_cancel_rent_btn" layoutX="14.0" layoutY="264.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="325.0" style="-fx-background-color: #a35fea;" text="Отменить аренду" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Label fx:id="main_info_field" layoutX="13.0" layoutY="63.0" prefHeight="135.0" prefWidth="325.0" text="Владелец: Иван Макаров&#10;Срок до 06.06.23&#10;Цена: 160 руб/день&#10;Особые примечания: нет&#10;Очередь на аренду: нет" textFill="#a35fea">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="main_report_btn" layoutX="13.0" layoutY="378.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="325.0" style="-fx-background-color: #a35fea;" text="Сообщить" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="main_set_queue_btn" layoutX="13.0" layoutY="321.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="325.0" style="-fx-background-color: #a35fea;" text="Встать в очередь" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="main_rent_btn" layoutX="14.0" layoutY="207.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="325.0" style="-fx-background-color: #a35fea;" text="Арендовать" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="20.0" layoutY="13.0" prefHeight="56.0" prefWidth="224.0" text="ЦифраПарк" textFill="#a35fea">
+         <font>
+            <Font name="Georgia Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="16.0" prefHeight="56.0" prefWidth="325.0" text="Удобно, быстро, надежно&#10;Сервис по онлайн аренде парковки" textFill="#a35fea">
+         <font>
+            <Font name="Georgia" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="442.0" layoutX="288.0" layoutY="98.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="11.0" layoutX="21.0" layoutY="201.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="268.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="11.0" layoutX="302.0" layoutY="201.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="268.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="11.0" layoutX="302.0" layoutY="314.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="268.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="11.0" layoutX="21.0" layoutY="314.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="268.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="11.0" layoutX="20.0" layoutY="427.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="268.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="11.0" layoutX="302.0" layoutY="427.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="268.0" />
+      <HBox alignment="CENTER_LEFT" layoutX="654.0" layoutY="11.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="30.0" prefWidth="252.0">
+         <children>
+            <Label fx:id="main_login_field" text="igvar.sal" textAlignment="RIGHT" textFill="#a35fea">
+               <font>
+                  <Font name="Georgia" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="main_spacer" text="  " textAlignment="RIGHT" textFill="#a35fea">
+               <font>
+                  <Font name="Georgia" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="main_money_field" text="0.00 Р" textAlignment="RIGHT" textFill="#a35fea">
+               <font>
+                  <Font name="Georgia" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

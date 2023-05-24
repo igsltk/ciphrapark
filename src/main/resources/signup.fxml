@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.ggpi.ciphrapark.SignupController">
+   <children>
+      <Button fx:id="signup_sign_btn" layoutX="188.0" layoutY="282.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="224.0" style="-fx-background-color: #a35fea;" text="Зарегистрироваться" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="signup_password_field" layoutX="312.0" layoutY="220.0" prefHeight="40.0" prefWidth="224.0" promptText="Пароль" style="-fx-border-color: #a35fea; -fx-border-radius: 10;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="signup_login_field" layoutX="64.0" layoutY="220.0" prefHeight="40.0" prefWidth="224.0" promptText="Логин" style="-fx-border-color: #a35fea; -fx-border-radius: 10;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <Label layoutX="188.0" layoutY="14.0" prefHeight="56.0" prefWidth="224.0" text="ЦифраПарк" textFill="#a35fea">
+         <font>
+            <Font name="Georgia Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="212.0" layoutY="70.0" text="Регистрация" textFill="#a35fea">
+         <font>
+            <Font name="Georgia Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="signup_auth_btn" layoutX="214.0" layoutY="336.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="172.0" style="-fx-background-color: #a35fea;" text="Авторизация" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="signup_name_field" layoutX="65.0" layoutY="117.0" prefHeight="40.0" prefWidth="224.0" promptText="Имя" style="-fx-border-color: #a35fea; -fx-border-radius: 10;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="signup_lastname_field" layoutX="313.0" layoutY="117.0" prefHeight="40.0" prefWidth="224.0" promptText="Фамилия" style="-fx-border-color: #a35fea; -fx-border-radius: 10;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="signup_email_field" layoutX="65.0" layoutY="168.0" prefHeight="40.0" prefWidth="224.0" promptText="Email" style="-fx-border-color: #a35fea; -fx-border-radius: 10;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="signup_phone_field" layoutX="313.0" layoutY="168.0" prefHeight="40.0" prefWidth="224.0" promptText="Телефон" style="-fx-border-color: #a35fea; -fx-border-radius: 10;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
