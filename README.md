@@ -1,2 +1,2 @@
-# Try to make Desktop-App with DB.
-simple example of Auto Parking Online Service
+# Made a Desktop-App with DB.
+Simple example of Auto Parking Online Service.
